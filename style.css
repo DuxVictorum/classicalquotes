@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.top-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+.container {
+  padding: 2rem;
+  outline: 2px red dashed;
+}
