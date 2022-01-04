@@ -5,14 +5,10 @@
 body {
   margin: 0;
 }
-h1 {
-  text-align: center;
-  font-family: "Quattrocento", serif;
-  font-size: 3rem;
-}
 
 .image-container {
   text-align: center;
+  position: relative;
 }
 
 .top-image {
@@ -21,9 +17,41 @@ h1 {
   height: auto;
 }
 
+h1 {
+  /* text-align: center; */
+  font-family: "Quattrocento", serif;
+  font-size: 4rem;
+  color: white;
+  position: absolute;
+  margin: 0;
+  top: 1.2rem;
+  width: 100%;
+  box-shadow: 2px 4px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
 .container {
-  padding: 2rem;
+  padding: 1rem 3rem 5rem;
+  /* outline: 2px red dashed; */
+}
+
+h2 {
+  text-align: center;
+}
+
+.quotebox {
   outline: 2px red dashed;
+  float: left;
+  width: 50%;
+}
+
+#quote {
+  outline: 2px green dashed;
 }
 
 #footer {
