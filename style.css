@@ -23,4 +23,11 @@ h1 {
 
 .container {
   padding: 2rem;
+  outline: 2px red dashed;
+}
+
+#footer {
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 1.2rem;
 }
