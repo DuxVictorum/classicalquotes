@@ -29,15 +29,9 @@ h1 {
   box-shadow: 2px 4px;
 }
 
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-}
-
 .container {
-  padding: 1rem 3rem 3rem;
-  /* outline: 2px red dashed; */
+  padding: 0rem 1rem 3rem;
+  /* outline: 2px blue dashed; */
   overflow: hidden;
 }
 
@@ -48,10 +42,16 @@ h1 {
 h2 {
   text-align: center;
   font-size: 2rem;
+  /* outline: 2px red dashed; */
+}
+
+.boxtop {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 #instructions {
-  outline: 2px red dashed;
+  /* outline: 2px red dashed; */
   float: left;
   width: 40%;
   font-size: 1.5rem;
@@ -61,11 +61,28 @@ h2 {
   outline: 2px red dashed;
   float: left;
   width: 60%;
+  min-height: 100px;
   padding-left: 3em;
   font-size: 1.5rem;
 }
 
 #quote {
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  #instructions {
+    float: none;
+    width: 100%;
+  }
+  #quotebox {
+    float: none;
+    width: 100%;
+    margin-top: 3rem;
+    padding-left: 0;
+  }
 }
 
 #footer {
