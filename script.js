@@ -2,14 +2,25 @@ import quotes from "./classicalQuotes.js";
 
 let question = document.querySelector("#question");
 let button = document.querySelector("#quoteButton");
+let quoteIntro = document.querySelector("#quoteIntro");
+let quoteContent = document.querySelector("#quoteContent");
 let quote = document.querySelector("#quote");
+let author = document.querySelector("#author");
+let source = document.querySelector("#source");
+quoteContent.style.display = "none";
 
 button.addEventListener("click", () => {
   let randQuote = Math.floor(Math.random() * quotes.length);
   if (question.value === "") {
-    quote.innerText = "You have to ask a question first, that's how it works.";
+    quoteContent.style.display = "none";
+    quoteIntro.innerHTML =
+      "<p>Please ask a question first, that's how this works.</p>";
   } else {
-    quote.innerText = quotes[randQuote];
-    quote.style.fontSize = "1.2rem";
+    quoteIntro.innerHTML = "<u>The ancient text says:</u>";
+    quoteContent.style.display = "block";
+    quoteContent.style.fontSize = "1.2rem";
+    quote.innerText = quotes[randQuote].quote;
+    author.innerText = quotes[randQuote].author;
+    source.innerText = quotes[randQuote].source;
   }
 });

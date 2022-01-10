@@ -50,14 +50,15 @@ h2 {
 }
 
 #instructions {
-  outline: 2px red dashed;
+  /* outline: 2px red dashed; */
   float: left;
   width: 40%;
   font-size: 1.5rem;
+  padding-left: 5rem;
 }
 
 #quotebox {
-  outline: 2px red dashed;
+  /* outline: 2px red dashed; */
   float: left;
   width: 60%;
   min-height: 100px;
@@ -69,6 +70,12 @@ h2 {
 }
 
 #quote {
+}
+
+@media screen and (max-width: 992px) {
+  #instructions {
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
