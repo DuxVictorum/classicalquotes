@@ -30,7 +30,7 @@ h1 {
 }
 
 .container {
-  padding: 0rem 1rem 3rem;
+  padding: 0rem 1rem 1rem;
   /* outline: 2px blue dashed; */
   overflow: hidden;
 }
