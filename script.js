@@ -6,7 +6,8 @@ let quoteIntro = document.querySelector("#quoteIntro");
 let quoteContent = document.querySelector("#quoteContent");
 let quote = document.querySelector("#quote");
 let author = document.querySelector("#author");
-let source = document.querySelector("#source");
+let work = document.querySelector("#work");
+let citation = document.querySelector("#citation");
 quoteContent.style.display = "none";
 
 button.addEventListener("click", () => {
@@ -21,6 +22,8 @@ button.addEventListener("click", () => {
     quoteContent.style.fontSize = "1.2rem";
     quote.innerText = quotes[randQuote].quote;
     author.innerText = quotes[randQuote].author;
-    source.innerText = quotes[randQuote].source;
+    work.innerText = quotes[randQuote].work;
+    work.style.fontStyle = "italic";
+    citation.innerText = quotes[randQuote].citation;
   }
 });

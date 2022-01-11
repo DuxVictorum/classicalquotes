@@ -62,7 +62,8 @@ h2 {
   float: left;
   width: 60%;
   min-height: 100px;
-  padding-left: 3em;
+  padding-left: 3rem;
+  padding-right: 2rem;
   font-size: 1.5rem;
 }
 #question {
