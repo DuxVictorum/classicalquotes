@@ -10,6 +10,8 @@ let work = document.querySelector("#work");
 let citation = document.querySelector("#citation");
 quoteContent.style.display = "none";
 
+let questionsList = [];
+
 button.addEventListener("click", () => {
   let randQuote = Math.floor(Math.random() * quotes.length);
   if (question.value === "") {

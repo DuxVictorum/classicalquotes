@@ -55,6 +55,26 @@ h2 {
   width: 40%;
   font-size: 1.5rem;
   padding-left: 5rem;
+  text-align: center;
+}
+#question {
+  border: #444 3px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+#quoteButton {
+  padding: 0.8rem;
+  color: white;
+  background-color: rgb(165, 76, 90);
+  font-size: 1.3rem;
+  font-family: "Quattrocento", serif;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#quoteButton:hover {
+  opacity: 95%;
+  box-shadow: 1px 1px 2px black;
+  font-style: italic;
 }
 
 #quotebox {
@@ -65,6 +85,9 @@ h2 {
   padding-left: 3rem;
   padding-right: 2rem;
   font-size: 1.5rem;
+}
+#quoteIntro {
+  text-align: center;
 }
 #question {
   margin-top: 1.2rem;
