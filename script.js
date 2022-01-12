@@ -18,7 +18,12 @@ button.addEventListener("click", () => {
     quoteContent.style.display = "none";
     quoteIntro.innerHTML =
       "<p>Please ask a question first, that's how this works.</p>";
+  } else if (questionsList.includes(question.value)) {
+    quoteContent.style.display = "none";
+    quoteIntro.innerHTML =
+      "<p>You've already asked that question. Did you not like your answer?</p>";
   } else {
+    questionsList.push(question.value);
     quoteIntro.innerHTML = "<u>The ancient text says:</u>";
     quoteContent.style.display = "block";
     quoteContent.style.fontSize = "1.2rem";
