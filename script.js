@@ -25,7 +25,7 @@ button.addEventListener("click", () => {
   } else {
     questionsList.push(question.value);
     quoteIntro.innerHTML = "<u>The ancient text says:</u>";
-    quoteContent.style.display = "block";
+    quoteContent.style.display = "inline-block";
     quoteContent.style.fontSize = "1.2rem";
     quote.innerText = quotes[randQuote].quote;
     author.innerText = quotes[randQuote].author;

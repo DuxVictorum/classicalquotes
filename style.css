@@ -74,7 +74,6 @@ h2 {
 #quoteButton:hover {
   opacity: 95%;
   box-shadow: 1px 1px 2px black;
-  font-style: italic;
 }
 
 #quotebox {
@@ -83,11 +82,15 @@ h2 {
   width: 60%;
   min-height: 100px;
   padding-left: 3rem;
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
   font-size: 1.5rem;
+  text-align: center;
 }
 #quoteIntro {
   text-align: center;
+}
+#quoteContent {
+  text-align: left;
 }
 #question {
   margin-top: 1.2rem;
