@@ -49,6 +49,10 @@ h2 {
   text-align: center;
 }
 
+#toptop {
+  font-family: "Quattrocento", serif;
+}
+
 #instructions {
   /* outline: 2px red dashed; */
   float: left;
@@ -88,15 +92,21 @@ h2 {
 }
 #quoteIntro {
   text-align: center;
+  font-family: "Quintessential", cursive;
 }
 #quoteContent {
   text-align: left;
 }
 #question {
   margin-top: 1.2rem;
+  background-color: rgb(255, 248, 238);
+  /* color: rgb(37, 109, 28); */
+  font-size: 1.3rem;
+  font-family: "Quintessential", cursive;
 }
 
 #quote {
+  font-family: "Quattrocento", serif;
 }
 
 @media screen and (max-width: 992px) {
