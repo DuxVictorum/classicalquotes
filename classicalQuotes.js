@@ -27,7 +27,7 @@ const quotes = [
     work: "Anthologia Palatina",
     poetry: true,
     citation: "7.18",
-    quote: `Do not judge the man by the [tomb]stone. 
+    quote: `Do not judge the man by the stone. 
     Simple is the tomb to look on, but holds the 
     bones of a great man. You shall know Alcman 
     the supreme striker of the Laconian lyre, 
@@ -89,6 +89,30 @@ const quotes = [
     wait for him to show his face, so I can tell him 
     that his easygoing father has become an 
     extremely harsh one and it's all his fault.`,
+  },
+  {
+    author: "Longinus",
+    work: "On The Sublime",
+    poetry: false,
+    citation: "1.20.2-3",
+    quote:
+      "Then to prevent the speech coming to a halt by running over the same ground - for immobility expresses inertia, while emotion, being a violent movement of the soul, demands disorder - he leaps at once into further asyndeta and anaphoras. 'By his manner, his looks, his voice, when he strikes with insult, when he strikes like an enemy, when he strikes with his knuckles, when he strikes you like a slave.' Here the orator does just the same as the aggressor, he belabors the minds of the jury with blow after blow.",
+  },
+  {
+    author: "Aeneas Tacticus",
+    work: "On the Defense of Fortified Positions",
+    poetry: false,
+    citation: "20.1-2",
+    quote:
+      "To prevent deception of the kinds just mentioned, in the first place the general ought before dining to give personal attention to the locking of the gate, and not carelessly to trust to anyone else, while in dangerous situations he must be extremely vigilant about this. Next, the bar should have three or four strips of iron from end to end, for thus it cannot be sawed through.",
+  },
+  {
+    author: "Diodorus Siculus",
+    work: "Library of History",
+    poetry: false,
+    citation: "11.2.3-4",
+    quote:
+      "Then, dividing his army, he sent in advance a sufficient number of men both to bridge the Hellespont and to dig a canal through Athos at the neck of the Cherronesus, in this way not only making the passage safe and short for his forces but also hoping by the magnitude of his exploits to strike the Greeks with terror before his arrival.",
   },
 ];
 
