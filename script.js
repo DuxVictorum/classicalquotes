@@ -21,7 +21,7 @@ button.addEventListener("click", () => {
   } else if (questionsList.includes(question.value)) {
     quoteContent.style.display = "none";
     quoteIntro.innerHTML =
-      "<p>You've already asked that question. Did you not like your answer?</p>";
+      "<p>You've already asked that question.<br><br>Did you not like your answer?</p>";
   } else {
     questionsList.push(question.value);
     quoteIntro.innerHTML = "<u>The ancient text says:</u>";
