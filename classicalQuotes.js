@@ -114,6 +114,35 @@ const quotes = [
     quote:
       "Then, dividing his army, he sent in advance a sufficient number of men both to bridge the Hellespont and to dig a canal through Athos at the neck of the Cherronesus, in this way not only making the passage safe and short for his forces but also hoping by the magnitude of his exploits to strike the Greeks with terror before his arrival.",
   },
+  {
+    author: "Cicero",
+    work: "De Officiis",
+    poetry: false,
+    citation: "1.55",
+    quote:
+      "But of all the bonds of fellowship, there is none more noble, none more powerful than when good men of congenial character are joined in intimate friendship; for really, if we discover in another that moral goodness on which I dwell so much, it attracts us and makes us friends to the one in whose character it seems to dwell.",
+  },
+  {
+    author: "Quintus Smyrnaeus",
+    work: "Posthomerica",
+    poetry: true,
+    citation: "5.45-48",
+    quote: `Numberless tribes of hardworking men
+    living in fair cities and overseen by Justice
+    turned their hands to their various tasks as the
+    barns were loaded with abundant crops and the
+    black earth flourished.`,
+  },
+  {
+    author: "Homer",
+    work: "Iliad",
+    poetry: true,
+    citation: "5.657-659",
+    quote: `Sarpedon struck him square on the neck,
+    and the grevious point passed clean through,
+    and down on his eyes came the darkness of night
+    and enfolded him.`,
+  },
 ];
 
 export default quotes;
