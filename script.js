@@ -1,14 +1,14 @@
 import quotes from "./classicalQuotes.js";
 
-// Initializing DOM variables
-let question = document.querySelector("#question");
-let button = document.querySelector("#quoteButton");
-let quoteIntro = document.querySelector("#quoteIntro");
-let quoteContent = document.querySelector("#quoteContent");
-let quote = document.querySelector("#quote");
-let author = document.querySelector("#author");
-let work = document.querySelector("#work");
-let citation = document.querySelector("#citation");
+// Initializing DOM variables and list of questions that the user has asked
+const question = document.querySelector("#question");
+const button = document.querySelector("#quoteButton");
+const quoteIntro = document.querySelector("#quoteIntro");
+const quoteContent = document.querySelector("#quoteContent");
+const quote = document.querySelector("#quote");
+const author = document.querySelector("#author");
+const work = document.querySelector("#work");
+const citation = document.querySelector("#citation");
 
 let questionsList = [];
 
@@ -18,7 +18,7 @@ quoteContent.style.display = "none";
 // Event listener
 button.addEventListener("click", () => {
   // Chooses one of the quotes at random
-  let randQuote = Math.floor(Math.random() * quotes.length);
+  const randQuote = Math.floor(Math.random() * quotes.length);
 
   // If user enters nothing, error message appears.
   if (question.value === "") {
