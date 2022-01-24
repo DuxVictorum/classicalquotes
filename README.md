@@ -21,7 +21,7 @@ This project gave me the opportunity to practice various front-end skills across
 - fun with Google fonts
 
 ## Roadmap
-I feel satisfied with the app the way it is, but if you 
+After a good deal of work, I feel satisfied with the app the way it is. I could have used flex display to achieve the left-right layout, but I intentionally wanted to stick with floats just to force myself to get better at them. The main area for enhancement is just to keep adding more excerpts from Greek and Latin texts. If you read this and have any suggestions for feature additions and/or ancient texts to include, please let me know!
 
 ## Acknowledgements :raised_hands:
 The original inspiration for this learning project is Miguel Nunez's ["15 Beginner JavaScript Projects"](dev.to/codefoxx/15-beginner-javascript-projects-to-improve-your-front-end-skills-5bcj). Check out this link for other great project ideas.  
