@@ -143,6 +143,24 @@ const quotes = [
     and down on his eyes came the darkness of night
     and enfolded him.`,
   },
+  {
+    author: "Polyaenus of Sardis",
+    work: "Anthologia Palatina",
+    poetry: true,
+    citation: "9.1",
+    quote: `A cruel viper struck the nursing udder of
+    a doe which had newly calved as it hung down
+    full of milk. Her fawn sucked the teat
+    contaminated by poison.`,
+  },
+  {
+    author: "Cicero",
+    work: "Letters to Brutus",
+    poetry: false,
+    citation: "I.11 (=16)",
+    quote:
+      "To me, on the other hand, he voluntarily promised and gave HS 2,000,000 out of his own funds and, what is worth much more, put himself in my way and joined me.",
+  },
 ];
 
 export default quotes;
