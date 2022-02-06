@@ -161,6 +161,30 @@ const quotes = [
     quote:
       "To me, on the other hand, he voluntarily promised and gave HS 2,000,000 out of his own funds and, what is worth much more, put himself in my way and joined me.",
   },
+  {
+    author: "Cicero",
+    work: "Phillipic",
+    poetry: false,
+    citation: "11.10",
+    quote:
+      "But you see the men whom Antony has and how many they are. First, his brother Lucius: what a firebrand, O immortal gods, what an outrage, what villainy, what a cesspool, what a chasm! What, do you suppose, is he not mentally sucking dry, engulfing in imagination, whose blood is he not drinking, on whose property and fortunes is he not fixing his shameless eyes in hopeful fantasy?",
+  },
+  {
+    author: "Caesar",
+    work: "Civil War",
+    poetry: false,
+    citation: "1.45",
+    quote:
+      "Our men's retreat lay along this slope, since spurred by enthusaism they had rather recklessly pressed on too far.",
+  },
+  {
+    author: "Cato the Elder",
+    work: "On Agriculture",
+    poetry: false,
+    citation: "36",
+    quote:
+      "Fertilizers for crops: Spread pigeon dung on meadow, garden, and field crops. Save carefully the poop from goats, sheep, cattle and everything else. Spread or pour the leftover liquid from olive pressings around trees.",
+  },
 ];
 
 export default quotes;
